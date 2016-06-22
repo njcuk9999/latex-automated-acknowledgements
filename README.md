@@ -20,9 +20,9 @@ Use in the following form:
 
 Displays the following in text:
 
-```
-This paper makes use of data products from the Two Micron All Sky Survey\citep{Skrutskie2006}, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
-```
+
+> This paper makes use of data products from the Two Micron All Sky Survey\citep{Skrutskie2006}, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+
 
 ## Writing new acknowledgements
 
@@ -39,9 +39,9 @@ cited in text as:
 \acknowledge{ADS}
 ```
 and displays the following in text:
-```
-This paper made use of NASA's Astrophysics Data System.
-```
+
+> This paper made use of NASA's Astrophysics Data System.
+
 
 ### Acknowledgement type
 
