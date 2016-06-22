@@ -17,6 +17,13 @@ Use in the following form:
 ```
 \acknowledge{2MASS}
 ```
+
+Displays the following in text:
+
+```
+This paper makes use of data products from the Two Micron All Sky Survey\citep{Skrutskie2006}, which is a joint project of the University of Massachusetts and the Infrared Processing and Analysis Center/California Institute of Technology, funded by the National Aeronautics and Space Administration and the National Science Foundation.
+```
+
 ## Writing new acknowledgements
 
 add key as follows to \pgfkeys{}
@@ -31,6 +38,11 @@ cited in text as:
 ```
 \acknowledge{ADS}
 ```
+and displays the following in text:
+```
+This paper made use of NASA's Astrophysics Data System.
+```
+
 ### Acknowledgement type
 
 Note most acknowledgements use "This paper..." or "This work..." or "This Thesis..." to remove this as a problem in writing references there is a command 
